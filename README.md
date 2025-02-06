@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in JavaScript stemming from its dynamic typing system.  The `foo` function intends to add two numbers, but due to loose typing, it performs string concatenation when one of the inputs is a string.  The solution shows how to explicitly type check or use stricter type handling to prevent this.
